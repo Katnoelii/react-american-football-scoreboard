@@ -4,12 +4,16 @@
   font-weight: 400;
   font-style: normal;
 }
-
+@font-face {
+  font-family:"Playfair Display", serif;
+  src:url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap')
+}
 * {
   margin: 0;
   padding: 0;
 }
 html {
+  background-color:#1d1914;
   font-size: 62.5%;
 }
 body {
@@ -33,9 +37,9 @@ button {
   margin: 0;
   text-decoration: none;
   background: #414141;
-  color: #ffffff;
+  color: #201d1d;
   font-family: inherit;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   cursor: pointer;
   text-align: center;
   transition: background 250ms ease-in-out, transform 150ms ease;
@@ -45,11 +49,11 @@ button {
 
 button:hover,
 button:focus {
-  background: #a2272d;
+  background: #66191d;
 }
 
 button:focus {
-  outline: 1px solid #fff;
+  outline: 1px solid;
   outline-offset: -4px;
 }
 
